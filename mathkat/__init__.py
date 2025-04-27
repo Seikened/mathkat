@@ -1,1 +1,1 @@
-from .main import Funcion
+from .main import Gradiente
