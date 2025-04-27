@@ -2,13 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='mathkat',
-    version='0.1.0',
-    description='Una libreria de gradientes para Python',
+    version='1.0.0',
+    description='Una librería de gradientes para Python con impresión bonita en terminal.',
     author='Fernando Leon Franco',
     packages=find_packages(),
+    python_requires='>=3.10',
     install_requires=[
-        'numpy>=2.0.2',
-        'matplotlib>=3.10.0',
-        'tabulate>=0.9.0'
+        'numpy>=2.0.0',
+        'rich>=13.0.0'
     ],
 )
